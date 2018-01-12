@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <form id="questionnaire">
+
+      <div class='row header'>
+        <h1>Fill in the blanks to write your story!</h1>
+      </div>
+
+      <div class='row'>
+        <div class="col-9">
+          <p class="question">question !</p>
+        </div>
+
+        <div class="col-3">
+          <input id="answer1" placeholder="enter 1-10" />
+        </div>
+      </div>
+
+      <div class='row'>
+          <div class="col-9">
+            <p class="question">question !</p>
+          </div>
+  
+          <div class="col-3">
+            <input id="answer2" placeholder="enter 1-10" />
+          </div>
+        </div>
+
+        <div class='row'>
+            <div class="col-9">
+              <p class="question">question !</p>
+            </div>
+    
+            <div class="col-3">
+              <input id="answer3" placeholder="enter 1-10" />
+            </div>
+          </div>
+
+      <button type="submit" form="questionnaire" value="Submit">Submit</button>
+    </form>
+
+
+    <div id="result1" class='result'>30 or greater</div>
+    <div id="result2" class='result'>20 or greater</div>
+    <div id="result3" class='result'>less than 20</div>
+  </div>
+
+</body>
+
+</html>
